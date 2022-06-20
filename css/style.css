@@ -1,5 +1,54 @@
+@font-face {
+    font-family: custom;
+    src: url(../type/MYCOOLFONT.otf);
+  }
+
+/* colors */
+.light{
+    background: #B9EAEE;
+}
+.mid{
+    background: #00C2D1;
+}
+.dark{
+    background: #0A1045;
+}
+
+/* backColors */
+
+.grayBack{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #F7F7F7;
+}
+
+
+/* containers */
+
+.bigCont{
+    max-width: 987px;
+    margin: auto;
+    position: relative;
+}
+
+.smallCont{
+    max-width: 666px;
+    margin: auto;
+    position: relative;
+}
 
 /* styling header */
+header{
+    height: 100vh;
+    position: relative;
+    z-index: 10;
+}
+main{
+    position: relative;
+    z-index: 0;
+}
+
 #bighead.center{
     position: relative;
         display: block;
@@ -12,6 +61,7 @@
     top: 5%;
     width: 50%;
     left: 25%;
+    z-index: 50;
 }
 
 #hamb-button{
@@ -87,16 +137,255 @@
 /* content */
 .cont{
     height: 2000px;
-    background: green;
+    /* background: green; */
     max-width: 1140px;
     margin: auto;
 }
 
-@media screen and (max-width: 1260px){
-.cont{
-    margin: 0 5%;
+
+.arti div{
+    width: 30%;
+    height: 290px;
+    float: left;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
 }
+.arti div.blok{
+    margin-left: 5%;
+}
+.arti div img{
+    width: 500px;
+    translate: -25%;
+}
+.arti div img#misselijk{
+    width: 300px;
+    translate: 0 -40%;
+}
+
+div.title{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0;
+    padding-top: 9px;
+}
+.show2{
+    display: block;
+}
+
+#circlePot{
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    top: -40px;
+}
+.reviews{
+overflow: scroll;
+}
+
+.voordescroll{
+    width: 1500px;
+    padding-left:5%;
+    padding-right: 5%;
+    height: 480px;
+}
+
+.fourfifty{
+    width: 450px;
+    height: 450px;
+    float: left;
+    position: relative;
+    margin-left: 50px;
+}
+.review{
+    position: absolute;
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+
+}
+
+/* letters */
+p{
+
+    font-family: 'Montserrat', sans-serif;
+    color: #0A1045;
+}
+
+p.quote{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    font-size: 30px;
+    position: relative;
+    z-index: -10;
+}
+p.intext{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    position: relative;
+    z-index: -10;
+}
+h2{
+    font-family: custom;
+    font-size: 50px;
+    color: #0A1045;
+    margin-bottom: 15px;
+}
+
+.arti h3{
+    font-family: custom;
+    font-size: 27px;
+    color: #F7F7F7;
+}
+.arti p{
+    font-family: custom;
+    font-size: 15px;
+    color: #F7F7F7;
+    margin-top: 5px;
+}
+
+button{border: none;
+    margin: auto;
+background: none;}
+button a{
+    text-decoration: none;
+    border: none;
+}
+
+button p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    color: #F7F7F7;
+    margin-top: 40px;
 }
 
 
+.more{
+    max-width: 400px;
+    margin: auto;
+    height: 250px;
+}
+
+.bottom{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+max-width: 100%;
+top: 0;
+}
+
+.top{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+    top: 50px;
+}
+
+
+.left{
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.fifty{
+    width: 50%;
+}
+.eighty{
+    width: 80%;
+    margin: 0 10%;
+}
+.leftFloat{
+    float: left;
+    position: relative;
+}
+
+.rightFloat{
+    float: right;
+}
+
+.marginBot{
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1050px){
+.bigCont{
+    margin: 0 5% 0 5%;
+}
+}
+
+@media screen and (max-width: 900px){
+
+.arti div{
+    width: auto;
+    max-width: 297px;
+    float: none;
+    position: relative;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.arti div.blok{
+    margin: auto;
+    margin-bottom: 50px;
+}
+.arti div img{
+    width: 500px;
+    translate: -25%;
+    margin-bottom: 0;
+}
+.arti div img#misselijk{
+    width: 300px;
+    translate: 0 -40%;
+    margin-bottom: 0;
+}
+div.title{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0;
+    padding-top: 9px;
+    margin-bottom: 0;
+}
+}
+
+@media screen and (max-width: 700px){
+    .smallCont{
+        margin: 0 10% 0 10%;
+        
+    }
+    p.quote{
+        margin-top: 200px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+    }
+    button p{
+        font-size: 20px;
+    }
+    .show2{
+        display: none;
+    }
+    .fifty{
+        width: 100%;
+    }
+    .intext{
+        text-align: center;
+    }
+}
+
+.clear{
+    clear: both;
+}
 
