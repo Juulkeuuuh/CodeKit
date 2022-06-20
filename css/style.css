@@ -172,17 +172,57 @@ div.title{
     padding-top: 9px;
 }
 .show2{
-    display: none;
+    display: block;
 }
+
+#circlePot{
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    top: -40px;
+}
+.reviews{
+overflow: scroll;
+}
+
+.voordescroll{
+    width: 1500px;
+    padding-left:5%;
+    padding-right: 5%;
+    height: 480px;
+}
+
+.fourfifty{
+    width: 450px;
+    height: 450px;
+    float: left;
+    position: relative;
+    margin-left: 50px;
+}
+.review{
+    position: absolute;
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+
+}
+
 /* letters */
 p{
-        margin-top: 50px;
+
     font-family: 'Montserrat', sans-serif;
     color: #0A1045;
 }
 
 p.quote{
+    font-family: 'Montserrat', sans-serif;
     margin-top: 50px;
+    font-size: 30px;
+    position: relative;
+    z-index: -10;
+}
+p.intext{
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     position: relative;
@@ -192,8 +232,6 @@ h2{
     font-family: custom;
     font-size: 50px;
     color: #0A1045;
-}
-.arti h2{
     margin-bottom: 15px;
 }
 
@@ -230,6 +268,7 @@ button p{
 .more{
     max-width: 400px;
     margin: auto;
+    height: 250px;
 }
 
 .bottom{
@@ -237,6 +276,7 @@ position: absolute;
 left: 50%;
 transform: translateX(-50%);
 max-width: 100%;
+top: 0;
 }
 
 .top{
@@ -258,6 +298,26 @@ max-width: 100%;
 
 .right{
     text-align: right;
+}
+
+.fifty{
+    width: 50%;
+}
+.eighty{
+    width: 80%;
+    margin: 0 10%;
+}
+.leftFloat{
+    float: left;
+    position: relative;
+}
+
+.rightFloat{
+    float: right;
+}
+
+.marginBot{
+    margin-bottom: 100px;
 }
 
 @media screen and (max-width: 1050px){
@@ -313,6 +373,15 @@ div.title{
     }
     button p{
         font-size: 20px;
+    }
+    .show2{
+        display: none;
+    }
+    .fifty{
+        width: 100%;
+    }
+    .intext{
+        text-align: center;
     }
 }
 
