@@ -22,6 +22,16 @@
     padding-bottom: 15px;
     background: #F7F7F7;
 }
+.blueBack{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #B9EAEE;
+}
+
+.whiteSpace{
+    height: 50px;
+}
 
 
 /* containers */
@@ -158,6 +168,11 @@ main{
     width: 500px;
     translate: -25%;
 }
+.arti div img.howitworks{
+width: 264px;
+    translate: 0;
+}
+
 .arti div img#misselijk{
     width: 300px;
     translate: 0 -40%;
@@ -199,6 +214,11 @@ overflow: scroll;
     position: relative;
     margin-left: 50px;
 }
+
+.hundred{
+    width: calc(100% - 59px);
+}
+
 .review{
     position: absolute;
     width: 450px;
@@ -207,6 +227,13 @@ overflow: scroll;
     translate: -50% -50%;
 
 }
+
+
+.linkje{
+color: #00C2D1;
+text-decoration: underline;
+}
+
 
 /* letters */
 p{
@@ -233,6 +260,18 @@ h2{
     font-size: 50px;
     color: #0A1045;
     margin-bottom: 15px;
+}
+
+#special{
+    margin-bottom: 30px;
+}
+h4{
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
 }
 
 .arti h3{
@@ -264,6 +303,10 @@ button p{
     margin-top: 40px;
 }
 
+
+.howitworks{
+    width: 264px;
+}
 
 .more{
     max-width: 400px;
@@ -372,7 +415,8 @@ div.title{
         font-size: 30px;
     }
     button p{
-        font-size: 20px;
+        font-size: 16px;
+        margin-top: 7vw;
     }
     .show2{
         display: none;
@@ -382,6 +426,12 @@ div.title{
     }
     .intext{
         text-align: center;
+
+    }
+
+    .hundred{
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
 
