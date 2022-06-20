@@ -3,6 +3,43 @@
     src: url(../type/MYCOOLFONT.otf);
   }
 
+nav{
+    position: fixed;
+    top: 100px;
+    right: 236px;
+    z-index: 1000;
+}
+li{
+    list-style-type: none;
+    position: relative;
+}
+
+.nav{
+    display: none;
+    width: 136px;
+}
+
+.zInd1{
+    position: relative;
+}
+
+.zInd2{
+    position: absolute;
+    z-index: 2;
+    top: calc(112px/2);
+    left: calc(336px/2);
+    translate: -50%;
+}
+
+h5{
+    font-family: custom;
+    font-size: 27px;
+    color: #F7F7F7;
+    width: 335px;
+    text-align: center;
+}
+
+
 /* colors */
 .light{
     background: #B9EAEE;
@@ -21,6 +58,20 @@
     padding-top: 15px;
     padding-bottom: 15px;
     background: #F7F7F7;
+}
+.blueBack{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #B9EAEE;
+    padding-bottom: 200px;
+}
+
+.whiteSpace{
+    height: 50px;
+}
+.whiteSpaceExtra{
+    height: 500px;
 }
 
 
@@ -47,6 +98,9 @@ header{
 main{
     position: relative;
     z-index: 0;
+}
+main.others{
+    margin-top: -90vh;
 }
 
 #bighead.center{
@@ -158,6 +212,11 @@ main{
     width: 500px;
     translate: -25%;
 }
+.arti div img.howitworks{
+width: 264px;
+    translate: 0;
+}
+
 .arti div img#misselijk{
     width: 300px;
     translate: 0 -40%;
@@ -199,6 +258,11 @@ overflow: scroll;
     position: relative;
     margin-left: 50px;
 }
+
+.hundred{
+    width: calc(100% - 59px);
+}
+
 .review{
     position: absolute;
     width: 450px;
@@ -207,6 +271,13 @@ overflow: scroll;
     translate: -50% -50%;
 
 }
+
+
+.linkje{
+color: #00C2D1;
+text-decoration: underline;
+}
+
 
 /* letters */
 p{
@@ -233,6 +304,18 @@ h2{
     font-size: 50px;
     color: #0A1045;
     margin-bottom: 15px;
+}
+
+#special{
+    margin-bottom: 30px;
+}
+h4{
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
 }
 
 .arti h3{
@@ -264,6 +347,10 @@ button p{
     margin-top: 40px;
 }
 
+
+.howitworks{
+    width: 264px;
+}
 
 .more{
     max-width: 400px;
@@ -320,6 +407,19 @@ top: 0;
     margin-bottom: 100px;
 }
 
+
+/* footer */
+footer{
+    position: relative;
+    z-index: 10;
+}
+footer img.foot{
+    margin-top: -200px;
+    width: 100%;
+}
+
+
+
 @media screen and (max-width: 1050px){
 .bigCont{
     margin: 0 5% 0 5%;
@@ -372,7 +472,8 @@ div.title{
         font-size: 30px;
     }
     button p{
-        font-size: 20px;
+        font-size: 16px;
+        margin-top: 7vw;
     }
     .show2{
         display: none;
@@ -382,6 +483,12 @@ div.title{
     }
     .intext{
         text-align: center;
+
+    }
+
+    .hundred{
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
 
