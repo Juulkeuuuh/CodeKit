@@ -66,6 +66,13 @@ h5{
     background: #B9EAEE;
     padding-bottom: 200px;
 }
+.blueBackwork{
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    background: #B9EAEE;
+    margin-bottom: 50px;
+}
 
 .whiteSpace{
     height: 50px;
@@ -509,6 +516,45 @@ h3.names{
 .leftecht{
     margin-bottom: 350px;
 }
+/* workshop */
+h1.work{
+    font-family: custom;
+    font-size: 80px;
+    color: #0A1045;
+text-align: center;
+margin-top: -100px;
+margin-bottom: 55px;
+}
+.middleCont h5.work{
+
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    color: #00C2D1;
+    text-align: center;
+    width: auto;
+    margin-bottom: 50px;
+}
+.middleCont p.blauw{
+    color: #00C2D1;
+    font-weight: bold;
+}
+.middleCont p.noMarg{
+    margin-bottom: 0;
+}
+
+.leftPad{
+    padding-left: 20px;
+}
+
+.down{
+    margin-top: 200px;
+}
+.maxWdown{
+    max-width: 500px;
+    margin: auto;
+}
 
 @media screen and (max-width: 1050px){
 .bigCont{
@@ -581,6 +627,11 @@ div.title{
     .intext{
         text-align: center;
 
+    }
+    .leftPad{
+        padding-left: 0;
+        padding-top: 50px;
+        text-align: center;
     }
 
     .hundred{
