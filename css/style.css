@@ -100,7 +100,7 @@ main{
     z-index: 0;
 }
 main.others{
-    margin-top: -90vh;
+    margin-top: calc(-80vh + 10vw);
 }
 
 #bighead.center{
@@ -233,6 +233,9 @@ div.title{
 .show2{
     display: block;
 }
+.show1{
+    display: none;
+}
 
 #circlePot{
     position: absolute;
@@ -277,8 +280,31 @@ color: #00C2D1;
 text-decoration: underline;
 }
 
+#logoZuyd{
+    max-width: 200px;
+}
+
 
 /* letters */
+h1{
+    font-family: custom;
+    font-size: 190px;
+    color: #0A1045;
+text-align: center;
+}
+.middleCont h5{
+
+    margin: -100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200px;
+    font-weight: bold;
+    color: #00C2D1;
+    text-align: center;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+
 p{
 
     font-family: 'Montserrat', sans-serif;
@@ -328,11 +354,17 @@ h4{
     line-height: 30px;
     text-align: center;
 }
-
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: #0A1045;
+    font-weight: bold;
+}
 .arti h3{
     font-family: custom;
     font-size: 27px;
     color: #F7F7F7;
+    font-weight: 400;
 }
 .arti p{
     font-family: custom;
@@ -423,17 +455,67 @@ top: 0;
 footer{
     position: relative;
     z-index: 10;
+    margin-top: -200px;
 }
 footer img.foot{
-    margin-top: -200px;
+    position: absolute;
+    height: 40vh;
     width: 100%;
+    z-index: -1;
+}
+.footshit{
+    color: #F7F7F7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+footer div{
+    padding-top: 50px;
 }
 
 
+/* wij */
+.middleCont{
+
+    margin: auto;
+        margin-top: 50px;
+    max-width: 987px;
+}
+.middleCont img{
+    margin: 15%;
+    max-width: 70%;
+}
+
+h3.names{
+    font-family: custom;
+    font-size: 50px;
+    color: #0A1045;
+}
+.middleCont p{
+    margin-top: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    color: #0A1045;
+    line-height: 37px;
+}
+.rela{
+    position: relative;
+}
+.onTopPic{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.leftecht{
+    margin-bottom: 350px;
+}
 
 @media screen and (max-width: 1050px){
 .bigCont{
     margin: 0 5% 0 5%;
+}
+.middleCont{
+    margin: 50px 5% 0 5%;
 }
 }
 
@@ -472,6 +554,7 @@ div.title{
 }
 }
 
+
 @media screen and (max-width: 700px){
     .smallCont{
         margin: 0 10% 0 10%;
@@ -489,6 +572,9 @@ div.title{
     .show2{
         display: none;
     }
+    .show1{
+        display: block;
+    }
     .fifty{
         width: 100%;
     }
@@ -501,7 +587,49 @@ div.title{
         width: 100%;
         margin-bottom: 20px;
     }
+    footer img.foot{
+        position: absolute;
+        height: 50vh;
+        width: 100%;
+        z-index: -1;
+    }
+
+    h3.names{
+        font-family: custom;
+        font-size: 50px;
+        color: #0A1045;
+    }
+    .middleCont p, .middleCont h3.names{
+        text-align: center;
+    }
+    .middleCont p.leftecht{
+        text-align: left;
+    }
 }
+
+
+
+@media screen and (max-width: 900px){
+
+    h1{
+        font-family: custom;
+        font-size: 80px;
+        color: #0A1045;
+    text-align: center;
+    }
+    .middleCont h5{
+    
+        margin: -40px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 90px;
+        font-weight: bold;
+        color: #00C2D1;
+        text-align: center;
+        width: auto;
+        margin-bottom: 50px;
+    }
+    }
+
 
 .clear{
     clear: both;
