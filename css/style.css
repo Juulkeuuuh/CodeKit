@@ -9,6 +9,7 @@ nav{
     right: 236px;
     z-index: 1000;
 }
+
 li{
     list-style-type: none;
     position: relative;
@@ -26,9 +27,7 @@ li{
 .zInd2{
     position: absolute;
     z-index: 2;
-    top: calc(112px/2);
-    left: calc(336px/2);
-    translate: -50%;
+    top: 50%;
 }
 
 h5{
@@ -61,7 +60,8 @@ h5{
 }
 .blueBack{
     width: 100%;
-    padding-top: 15px;
+    margin-top: 100px;
+    padding-top: 100px;
     padding-bottom: 15px;
     background: #B9EAEE;
     padding-bottom: 200px;
@@ -245,10 +245,9 @@ overflow: scroll;
 }
 
 .voordescroll{
-    width: 1500px;
+    width: 2000px;
     padding-left:5%;
     padding-right: 5%;
-    height: 480px;
 }
 
 .fourfifty{
@@ -256,7 +255,7 @@ overflow: scroll;
     height: 450px;
     float: left;
     position: relative;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 .hundred{
@@ -300,10 +299,22 @@ p.intext{
     z-index: -10;
 }
 h2{
+    border: none;
+    text-decoration: none;
     font-family: custom;
     font-size: 50px;
     color: #0A1045;
     margin-bottom: 15px;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+div a h2.center{
+    text-decoration: none;
+    border: none;
 }
 
 #special{
